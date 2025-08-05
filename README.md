@@ -48,5 +48,50 @@ This project explores how retail sentiment (from Reddit, Twitter, and news from 
 - Heatmaps and statistics for lag/lead relationships  
 - Summary tables for causality analysis
 
+**Main Methods:**
+Methods
+1. Data Preparation
+Filter and aggregate data for each coin
+
+Merge sentiment and whale data by date
+
+2. Time Series Analysis
+Stationarity Testing: Augmented Dickey-Fuller (ADF)
+
+Optimal Lag Selection: Akaike Information Criterion (AIC)
+
+VAR Model: Vector Autoregression to model interactions
+
+Granger Causality: Statistical tests for predictive relationships in both directions
+
+3. Machine Learning Models
+We trained and compared three regression models to predict daily whale activity:
+
+Linear Regression
+
+Random Forest Regressor
+
+XGBoost Regressor
+
+Features included:
+
+Lagged sentiment and polarity scores
+
+Lagged whale activity (previous days)
+
+Rolling averages
+
+Coin type (one-hot encoded)
+
+Evaluation metrics:
+
+RMSE (Root Mean Squared Error)
+
+R² Score
+
+Actual vs. Predicted plots
+
+
+
 
 
