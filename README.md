@@ -15,10 +15,10 @@ This project analyzes how cryptocurrency sentiment (from social media) and whale
 - pandas, matplotlib, seaborn, scikit-learn, TextBlob
 
 
-# Updated on 24/07/2025
 # Crypto Sentiment and Whale Activity: Lag-Lead Dynamics between Retail and Large Players
 
-This project explores how retail sentiment (from Reddit, Twitter, and news from Cryptopanic) and whale activity (large on-chain transactions) interact in the crypto market—focusing on BTC, ETH, SOL, and USDT. We analyze whether whale actions lead or follow crowd mood, and how both may impact market behavior.
+This project explores how retail sentiment (from Reddit, Twitter, and news from Cryptopanic) and whale activity (large on-chain transactions) interact in the crypto market—focusing on BTC, ETH, SOL, and USDT. We analyze whether whale actions lead or follow crowd mood, and how we can use sentiment to predict Whales activity.
+
 
 **Project Structure:**
 - `data/raw`: Original datasets
@@ -47,11 +47,6 @@ This project explores how retail sentiment (from Reddit, Twitter, and news from 
 - Coin-level plots of sentiment and whale moves over time  
 - Heatmaps and statistics for lag/lead relationships  
 - Summary tables for causality analysis
-
-**Next Steps:**  
-- Add more sentiment/news sources  
-- Extend to more coins and timeframes  
-- Explore predictive models (optional)
 
 
 
