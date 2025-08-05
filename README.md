@@ -17,7 +17,7 @@ This project analyzes how cryptocurrency sentiment (from social media) and whale
 
 # Crypto Sentiment and Whale Activity: Lag-Lead Dynamics between Retail and Large Players
 
-This project explores how retail sentiment (from Reddit, Twitter, and news from Cryptopanic) and whale activity (large on-chain transactions) interact in the crypto market—focusing on BTC, ETH, SOL, and USDT. We analyze whether whale actions lead or follow crowd mood, and how we can use sentiment to predict Whales activity.
+This project explores how retail sentiment (from Reddit, Twitter, and news from Cryptopanic) and whale activity (large on-chain transactions) interact in the crypto market—focusing on BTC, ETH, SOL, and ADA. We analyze whether whale actions lead or follow crowd mood, and how we can use sentiment to predict Whales activity.
 
 
 **Project Structure:**
